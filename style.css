@@ -1,9 +1,12 @@
 body {
     background-color: rgb(0, 0, 0);
 }
+.poetsen-one-regular{
+    color: #00ffd5;
+}
+.img2 { 
+    position: fixed;
 
-.im2 {
-    border-left: 4px solid white; /* Corrigido (antes era "4000") */
 }
 
 h1 {
