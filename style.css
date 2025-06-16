@@ -4,6 +4,14 @@ body {
 .poetsen-one-regular{
     color: #00ffd5;
 }
+.li{
+    margin-left: 56666;
+}
+.lista{
+    margin-left: 400;
+    border-left: 600px;
+    color: #ff00ea;
+}
 .img2 { 
     position: fixed;
 
