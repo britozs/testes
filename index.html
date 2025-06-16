@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>App Minha Selfie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body>
+  <div class="container">
+    <a href="#" id="link" download="myselfie.png"></a>
+
+    <h1 class="poetsen-one-regular">Plataforma Por Voz</h1>
+    <br>
+    <h4 class="legenda">Permita o acesso ao microfone</h4>
+
+    <div class="form-group">
+      <img class="img2" src="https://i.postimg.cc/zDHMxNLp/image-removebg-preview.png" alt="">
+      <h3 class="ancizar-sans-uniquifier">Modifique o site via voz</h3>
+      <label for="textbox">Sua saída de voz:</label>
+      <textarea class="form-control" id="textbox" readonly></textarea>
+    </div>
+      
+    <div class="botao">
+      <button class="glow-on-hover btn btn-primary" onclick="start()">Iniciar</button>
+    </div>
+    <script src="main.js"></script>
+  </div>
