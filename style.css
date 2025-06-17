@@ -2,7 +2,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 .poetsen-one-regular{
-    color: #00ffd5;
+    color: #00ffdd;
 }
 .li{
     margin-left: 56666;
@@ -12,12 +12,10 @@ body {
     border-left: 600px;
     color: #ff00ea;
 }
-.img2 { 
-    position: relative;
+#img2 { 
     align-items: center;
-    margin-left: 40;
-    margin-right: 600;
-    margin-top: 20;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -97,7 +95,8 @@ h3 {
 }
 
 .ancizar-sans-uniquifier {
-    margin-top: 100px;
+    margin-top: 42px;
+    color: #ffffff;
     font-family: "Ancizar Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
